@@ -1,0 +1,3283 @@
+Clock cycle 1 :-
+Fetch:
+PC : 0x00000000
+IR : 0x00018513
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000000
+PC : 0x00000004 (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x10000000
+
+Clock cycle 2 :-
+Fetch:
+PC : 0x00000004
+IR : 0x00a00213
+Decode:
+RA : 0x00000000
+RB : 0x10000000
+Execute:
+RZ : 0x0000000a
+PC : 0x00000008 (for next instruction)
+Memory Access:
+MAR : 0x0000000a
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 3 :-
+Fetch:
+PC : 0x00000008
+IR : 0x00452023
+Decode:
+RA : 0x10000000
+RB : 0x0000000a
+Execute:
+RZ : 0x10000000
+PC : 0x0000000c (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x0000000a (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x10000000
+
+Clock cycle 4 :-
+Fetch:
+PC : 0x0000000c
+IR : 0xfec00213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0xffffffec
+PC : 0x00000010 (for next instruction)
+Memory Access:
+MAR : 0xffffffec
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 5 :-
+Fetch:
+PC : 0x00000010
+IR : 0x00452223
+Decode:
+RA : 0x10000000
+RB : 0xffffffec
+Execute:
+RZ : 0x10000004
+PC : 0x00000014 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 6 :-
+Fetch:
+PC : 0x00000014
+IR : 0x01e00213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x0000001e
+PC : 0x00000018 (for next instruction)
+Memory Access:
+MAR : 0x0000001e
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 7 :-
+Fetch:
+PC : 0x00000018
+IR : 0x00452423
+Decode:
+RA : 0x10000000
+RB : 0x0000001e
+Execute:
+RZ : 0x10000008
+PC : 0x0000001c (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x0000001e (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 8 :-
+Fetch:
+PC : 0x0000001c
+IR : 0x02800213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000028
+PC : 0x00000020 (for next instruction)
+Memory Access:
+MAR : 0x00000028
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000028
+
+Clock cycle 9 :-
+Fetch:
+PC : 0x00000020
+IR : 0x00452623
+Decode:
+RA : 0x10000000
+RB : 0x00000028
+Execute:
+RZ : 0x1000000c
+PC : 0x00000024 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x00000028 (before memory access)
+MDR : 0x00000028 (after memory access)
+Write Back:
+RY : 0x1000000c
+
+Clock cycle 10 :-
+Fetch:
+PC : 0x00000024
+IR : 0x00500213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000005
+PC : 0x00000028 (for next instruction)
+Memory Access:
+MAR : 0x00000005
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000005
+
+Clock cycle 11 :-
+Fetch:
+PC : 0x00000028
+IR : 0x00452823
+Decode:
+RA : 0x10000000
+RB : 0x00000005
+Execute:
+RZ : 0x10000010
+PC : 0x0000002c (for next instruction)
+Memory Access:
+MAR : 0x10000010
+MDR : 0x00000005 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x10000010
+
+Clock cycle 12 :-
+Fetch:
+PC : 0x0000002c
+IR : 0x00500593
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000005
+PC : 0x00000030 (for next instruction)
+Memory Access:
+MAR : 0x00000005
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000005
+
+Clock cycle 13 :-
+Fetch:
+PC : 0x00000030
+IR : 0x008000ef
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x00000038 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000034
+
+Clock cycle 14 :-
+Fetch:
+PC : 0x00000038
+IR : 0xff810113
+Decode:
+RA : 0x7ffffff0
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffe8
+PC : 0x0000003c (for next instruction)
+Memory Access:
+MAR : 0x7fffffe8
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x7fffffe8
+
+Clock cycle 15 :-
+Fetch:
+PC : 0x0000003c
+IR : 0x00b12223
+Decode:
+RA : 0x7fffffe8
+RB : 0x00000005
+Execute:
+RZ : 0x7fffffec
+PC : 0x00000040 (for next instruction)
+Memory Access:
+MAR : 0x7fffffec
+MDR : 0x00000005 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x7fffffec
+
+Clock cycle 16 :-
+Fetch:
+PC : 0x00000040
+IR : 0x00112023
+Decode:
+RA : 0x7fffffe8
+RB : 0x00000034
+Execute:
+RZ : 0x7fffffe8
+PC : 0x00000044 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe8
+MDR : 0x00000034 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x7fffffe8
+
+Clock cycle 17 :-
+Fetch:
+PC : 0x00000044
+IR : 0x00100213
+Decode:
+RA : 0x00000000
+RB : 0x00000034
+Execute:
+RZ : 0x00000001
+PC : 0x00000048 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x00000034 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 18 :-
+Fetch:
+PC : 0x00000048
+IR : 0x00459663
+Decode:
+RA : 0x00000005
+RB : 0x00000001
+Execute:
+RZ : 0x00000000
+PC : 0x00000054 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 19 :-
+Fetch:
+PC : 0x00000054
+IR : 0x00000213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x00000058 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 20 :-
+Fetch:
+PC : 0x00000058
+IR : 0xfff58293
+Decode:
+RA : 0x00000005
+RB : 0x00000000
+Execute:
+RZ : 0x00000004
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 21 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000000
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 22 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 23 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000000
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 24 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000000
+RB : 0x10000000
+Execute:
+RZ : 0x10000000
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000000
+
+Clock cycle 25 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 26 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000000
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 27 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000004
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 28 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0xffffffec
+RB : 0x0000000a
+Execute:
+RZ : 0x00000000
+PC : 0x0000007c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000000a (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 29 :-
+Fetch:
+PC : 0x0000007c
+IR : 0x000406b3
+Decode:
+RA : 0x0000000a
+RB : 0x00000000
+Execute:
+RZ : 0x0000000a
+PC : 0x00000080 (for next instruction)
+Memory Access:
+MAR : 0x0000000a
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 30 :-
+Fetch:
+PC : 0x00000080
+IR : 0x00932023
+Decode:
+RA : 0x10000000
+RB : 0xffffffec
+Execute:
+RZ : 0x10000000
+PC : 0x00000084 (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0x10000000
+
+Clock cycle 31 :-
+Fetch:
+PC : 0x00000084
+IR : 0x00d3a023
+Decode:
+RA : 0x10000004
+RB : 0x0000000a
+Execute:
+RZ : 0x10000004
+PC : 0x00000088 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x0000000a (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 32 :-
+Fetch:
+PC : 0x00000088
+IR : 0x00000263
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 33 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000000
+RB : 0x00000034
+Execute:
+RZ : 0x00000001
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x00000034 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 34 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 35 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000001
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 36 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000001
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 37 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000001
+RB : 0x00000004
+Execute:
+RZ : 0x00000004
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 38 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000004
+RB : 0x10000000
+Execute:
+RZ : 0x10000004
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 39 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000004
+RB : 0x00000001
+Execute:
+RZ : 0x10000008
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 40 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000004
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 41 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000008
+RB : 0x00000000
+Execute:
+RZ : 0x10000008
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 42 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x0000001e
+RB : 0x0000000a
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000000a (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 43 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000001
+RB : 0x00000034
+Execute:
+RZ : 0x00000002
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000002
+MDR : 0x00000034 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 44 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 45 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000002
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 46 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000002
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 47 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000002
+RB : 0x00000004
+Execute:
+RZ : 0x00000008
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000008
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000008
+
+Clock cycle 48 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000008
+RB : 0x10000000
+Execute:
+RZ : 0x10000008
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 49 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000008
+RB : 0x00000002
+Execute:
+RZ : 0x1000000c
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x1000000c
+
+Clock cycle 50 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000008
+RB : 0x00000000
+Execute:
+RZ : 0x10000008
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 51 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x1000000c
+RB : 0x00000000
+Execute:
+RZ : 0x1000000c
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000028 (after memory access)
+Write Back:
+RY : 0x00000028
+
+Clock cycle 52 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x00000028
+RB : 0x0000001e
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000001e (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 53 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000002
+RB : 0x00000034
+Execute:
+RZ : 0x00000003
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000003
+MDR : 0x00000034 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 54 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 55 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000003
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 56 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000003
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000003 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 57 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000003
+RB : 0x00000004
+Execute:
+RZ : 0x0000000c
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x0000000c
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x0000000c
+
+Clock cycle 58 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x0000000c
+RB : 0x10000000
+Execute:
+RZ : 0x1000000c
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x1000000c
+
+Clock cycle 59 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x1000000c
+RB : 0x00000003
+Execute:
+RZ : 0x10000010
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000010
+MDR : 0x00000003 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x10000010
+
+Clock cycle 60 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x1000000c
+RB : 0x00000000
+Execute:
+RZ : 0x1000000c
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000028 (after memory access)
+Write Back:
+RY : 0x00000028
+
+Clock cycle 61 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000010
+RB : 0x00000000
+Execute:
+RZ : 0x10000010
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000010
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x00000005
+
+Clock cycle 62 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x00000005
+RB : 0x00000028
+Execute:
+RZ : 0x00000000
+PC : 0x0000007c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000028 (before memory access)
+MDR : 0x00000028 (after memory access)
+Write Back:
+RY : 0x00000028
+
+Clock cycle 63 :-
+Fetch:
+PC : 0x0000007c
+IR : 0x000406b3
+Decode:
+RA : 0x00000028
+RB : 0x00000000
+Execute:
+RZ : 0x00000028
+PC : 0x00000080 (for next instruction)
+Memory Access:
+MAR : 0x00000028
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000028
+
+Clock cycle 64 :-
+Fetch:
+PC : 0x00000080
+IR : 0x00932023
+Decode:
+RA : 0x1000000c
+RB : 0x00000005
+Execute:
+RZ : 0x1000000c
+PC : 0x00000084 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x00000005 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x1000000c
+
+Clock cycle 65 :-
+Fetch:
+PC : 0x00000084
+IR : 0x00d3a023
+Decode:
+RA : 0x10000010
+RB : 0x00000028
+Execute:
+RZ : 0x10000010
+PC : 0x00000088 (for next instruction)
+Memory Access:
+MAR : 0x10000010
+MDR : 0x00000028 (before memory access)
+MDR : 0x00000028 (after memory access)
+Write Back:
+RY : 0x10000010
+
+Clock cycle 66 :-
+Fetch:
+PC : 0x00000088
+IR : 0x00000263
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 67 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000003
+RB : 0x00000034
+Execute:
+RZ : 0x00000004
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000034 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 68 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 69 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000004
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000094 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 70 :-
+Fetch:
+PC : 0x00000094
+IR : 0xfff58593
+Decode:
+RA : 0x00000005
+RB : 0x00000000
+Execute:
+RZ : 0x00000004
+PC : 0x00000098 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 71 :-
+Fetch:
+PC : 0x00000098
+IR : 0xfa1ff0ef
+Decode:
+RA : 0x00000000
+RB : 0x00000034
+Execute:
+RZ : 0x00000000
+PC : 0x00000038 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000034 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x0000009c
+
+Clock cycle 72 :-
+Fetch:
+PC : 0x00000038
+IR : 0xff810113
+Decode:
+RA : 0x7fffffe8
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffe0
+PC : 0x0000003c (for next instruction)
+Memory Access:
+MAR : 0x7fffffe0
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x7fffffe0
+
+Clock cycle 73 :-
+Fetch:
+PC : 0x0000003c
+IR : 0x00b12223
+Decode:
+RA : 0x7fffffe0
+RB : 0x00000004
+Execute:
+RZ : 0x7fffffe4
+PC : 0x00000040 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe4
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x7fffffe4
+
+Clock cycle 74 :-
+Fetch:
+PC : 0x00000040
+IR : 0x00112023
+Decode:
+RA : 0x7fffffe0
+RB : 0x0000009c
+Execute:
+RZ : 0x7fffffe0
+PC : 0x00000044 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe0
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x7fffffe0
+
+Clock cycle 75 :-
+Fetch:
+PC : 0x00000044
+IR : 0x00100213
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000001
+PC : 0x00000048 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 76 :-
+Fetch:
+PC : 0x00000048
+IR : 0x00459663
+Decode:
+RA : 0x00000004
+RB : 0x00000001
+Execute:
+RZ : 0x00000000
+PC : 0x00000054 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 77 :-
+Fetch:
+PC : 0x00000054
+IR : 0x00000213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x00000058 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 78 :-
+Fetch:
+PC : 0x00000058
+IR : 0xfff58293
+Decode:
+RA : 0x00000004
+RB : 0x00000000
+Execute:
+RZ : 0x00000003
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000003
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 79 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000000
+RB : 0x00000003
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000003 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 80 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 81 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000000
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 82 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000000
+RB : 0x10000000
+Execute:
+RZ : 0x10000000
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000000
+
+Clock cycle 83 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 84 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000000
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x00000000 (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 85 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000004
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 86 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x0000000a
+RB : 0xffffffec
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 87 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000001
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 88 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 89 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000001
+RB : 0x00000003
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000003 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 90 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000001
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 91 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000001
+RB : 0x00000004
+Execute:
+RZ : 0x00000004
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 92 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000004
+RB : 0x10000000
+Execute:
+RZ : 0x10000004
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 93 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000004
+RB : 0x00000001
+Execute:
+RZ : 0x10000008
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 94 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000004
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 95 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000008
+RB : 0x00000000
+Execute:
+RZ : 0x10000008
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 96 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x0000001e
+RB : 0x0000000a
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000000a (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 97 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000001
+RB : 0x0000009c
+Execute:
+RZ : 0x00000002
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000002
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 98 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 99 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000002
+RB : 0x00000003
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000003 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 100 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000002
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 101 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000002
+RB : 0x00000004
+Execute:
+RZ : 0x00000008
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000008
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000008
+
+Clock cycle 102 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000008
+RB : 0x10000000
+Execute:
+RZ : 0x10000008
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 103 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000008
+RB : 0x00000002
+Execute:
+RZ : 0x1000000c
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x1000000c
+
+Clock cycle 104 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000008
+RB : 0x00000000
+Execute:
+RZ : 0x10000008
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 105 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x1000000c
+RB : 0x00000000
+Execute:
+RZ : 0x1000000c
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x00000005
+
+Clock cycle 106 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x00000005
+RB : 0x0000001e
+Execute:
+RZ : 0x00000000
+PC : 0x0000007c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000001e (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 107 :-
+Fetch:
+PC : 0x0000007c
+IR : 0x000406b3
+Decode:
+RA : 0x0000001e
+RB : 0x00000000
+Execute:
+RZ : 0x0000001e
+PC : 0x00000080 (for next instruction)
+Memory Access:
+MAR : 0x0000001e
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x0000001e
+
+Clock cycle 108 :-
+Fetch:
+PC : 0x00000080
+IR : 0x00932023
+Decode:
+RA : 0x10000008
+RB : 0x00000005
+Execute:
+RZ : 0x10000008
+PC : 0x00000084 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000005 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 109 :-
+Fetch:
+PC : 0x00000084
+IR : 0x00d3a023
+Decode:
+RA : 0x1000000c
+RB : 0x0000001e
+Execute:
+RZ : 0x1000000c
+PC : 0x00000088 (for next instruction)
+Memory Access:
+MAR : 0x1000000c
+MDR : 0x0000001e (before memory access)
+MDR : 0x0000001e (after memory access)
+Write Back:
+RY : 0x1000000c
+
+Clock cycle 110 :-
+Fetch:
+PC : 0x00000088
+IR : 0x00000263
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 111 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000002
+RB : 0x0000009c
+Execute:
+RZ : 0x00000003
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000003
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 112 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 113 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000003
+RB : 0x00000003
+Execute:
+RZ : 0x00000000
+PC : 0x00000094 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000003 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 114 :-
+Fetch:
+PC : 0x00000094
+IR : 0xfff58593
+Decode:
+RA : 0x00000004
+RB : 0x00000000
+Execute:
+RZ : 0x00000003
+PC : 0x00000098 (for next instruction)
+Memory Access:
+MAR : 0x00000003
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 115 :-
+Fetch:
+PC : 0x00000098
+IR : 0xfa1ff0ef
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000000
+PC : 0x00000038 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x0000009c
+
+Clock cycle 116 :-
+Fetch:
+PC : 0x00000038
+IR : 0xff810113
+Decode:
+RA : 0x7fffffe0
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffd8
+PC : 0x0000003c (for next instruction)
+Memory Access:
+MAR : 0x7fffffd8
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x7fffffd8
+
+Clock cycle 117 :-
+Fetch:
+PC : 0x0000003c
+IR : 0x00b12223
+Decode:
+RA : 0x7fffffd8
+RB : 0x00000003
+Execute:
+RZ : 0x7fffffdc
+PC : 0x00000040 (for next instruction)
+Memory Access:
+MAR : 0x7fffffdc
+MDR : 0x00000003 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x7fffffdc
+
+Clock cycle 118 :-
+Fetch:
+PC : 0x00000040
+IR : 0x00112023
+Decode:
+RA : 0x7fffffd8
+RB : 0x0000009c
+Execute:
+RZ : 0x7fffffd8
+PC : 0x00000044 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd8
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x7fffffd8
+
+Clock cycle 119 :-
+Fetch:
+PC : 0x00000044
+IR : 0x00100213
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000001
+PC : 0x00000048 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 120 :-
+Fetch:
+PC : 0x00000048
+IR : 0x00459663
+Decode:
+RA : 0x00000003
+RB : 0x00000001
+Execute:
+RZ : 0x00000000
+PC : 0x00000054 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 121 :-
+Fetch:
+PC : 0x00000054
+IR : 0x00000213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x00000058 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 122 :-
+Fetch:
+PC : 0x00000058
+IR : 0xfff58293
+Decode:
+RA : 0x00000003
+RB : 0x00000000
+Execute:
+RZ : 0x00000002
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000002
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 123 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000000
+RB : 0x00000002
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 124 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 125 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000000
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 126 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000000
+RB : 0x10000000
+Execute:
+RZ : 0x10000000
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000000
+
+Clock cycle 127 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 128 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000000
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x00000000 (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 129 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000004
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 130 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x0000000a
+RB : 0xffffffec
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 131 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000001
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 132 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 133 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000001
+RB : 0x00000002
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 134 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000001
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 135 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000001
+RB : 0x00000004
+Execute:
+RZ : 0x00000004
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 136 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000004
+RB : 0x10000000
+Execute:
+RZ : 0x10000004
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 137 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000004
+RB : 0x00000001
+Execute:
+RZ : 0x10000008
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 138 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000004
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 139 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000008
+RB : 0x00000000
+Execute:
+RZ : 0x10000008
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x00000005
+
+Clock cycle 140 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x00000005
+RB : 0x0000000a
+Execute:
+RZ : 0x00000000
+PC : 0x0000007c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000000a (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 141 :-
+Fetch:
+PC : 0x0000007c
+IR : 0x000406b3
+Decode:
+RA : 0x0000000a
+RB : 0x00000000
+Execute:
+RZ : 0x0000000a
+PC : 0x00000080 (for next instruction)
+Memory Access:
+MAR : 0x0000000a
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x0000000a
+
+Clock cycle 142 :-
+Fetch:
+PC : 0x00000080
+IR : 0x00932023
+Decode:
+RA : 0x10000004
+RB : 0x00000005
+Execute:
+RZ : 0x10000004
+PC : 0x00000084 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000005 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 143 :-
+Fetch:
+PC : 0x00000084
+IR : 0x00d3a023
+Decode:
+RA : 0x10000008
+RB : 0x0000000a
+Execute:
+RZ : 0x10000008
+PC : 0x00000088 (for next instruction)
+Memory Access:
+MAR : 0x10000008
+MDR : 0x0000000a (before memory access)
+MDR : 0x0000000a (after memory access)
+Write Back:
+RY : 0x10000008
+
+Clock cycle 144 :-
+Fetch:
+PC : 0x00000088
+IR : 0x00000263
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 145 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000001
+RB : 0x0000009c
+Execute:
+RZ : 0x00000002
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000002
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 146 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 147 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000002
+RB : 0x00000002
+Execute:
+RZ : 0x00000000
+PC : 0x00000094 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 148 :-
+Fetch:
+PC : 0x00000094
+IR : 0xfff58593
+Decode:
+RA : 0x00000003
+RB : 0x00000000
+Execute:
+RZ : 0x00000002
+PC : 0x00000098 (for next instruction)
+Memory Access:
+MAR : 0x00000002
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 149 :-
+Fetch:
+PC : 0x00000098
+IR : 0xfa1ff0ef
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000000
+PC : 0x00000038 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x0000009c
+
+Clock cycle 150 :-
+Fetch:
+PC : 0x00000038
+IR : 0xff810113
+Decode:
+RA : 0x7fffffd8
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffd0
+PC : 0x0000003c (for next instruction)
+Memory Access:
+MAR : 0x7fffffd0
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x7fffffd0
+
+Clock cycle 151 :-
+Fetch:
+PC : 0x0000003c
+IR : 0x00b12223
+Decode:
+RA : 0x7fffffd0
+RB : 0x00000002
+Execute:
+RZ : 0x7fffffd4
+PC : 0x00000040 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd4
+MDR : 0x00000002 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x7fffffd4
+
+Clock cycle 152 :-
+Fetch:
+PC : 0x00000040
+IR : 0x00112023
+Decode:
+RA : 0x7fffffd0
+RB : 0x0000009c
+Execute:
+RZ : 0x7fffffd0
+PC : 0x00000044 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd0
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x7fffffd0
+
+Clock cycle 153 :-
+Fetch:
+PC : 0x00000044
+IR : 0x00100213
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000001
+PC : 0x00000048 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 154 :-
+Fetch:
+PC : 0x00000048
+IR : 0x00459663
+Decode:
+RA : 0x00000002
+RB : 0x00000001
+Execute:
+RZ : 0x00000000
+PC : 0x00000054 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 155 :-
+Fetch:
+PC : 0x00000054
+IR : 0x00000213
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x00000058 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 156 :-
+Fetch:
+PC : 0x00000058
+IR : 0xfff58293
+Decode:
+RA : 0x00000002
+RB : 0x00000000
+Execute:
+RZ : 0x00000001
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 157 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000000
+RB : 0x00000001
+Execute:
+RZ : 0x00000000
+PC : 0x00000060 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 158 :-
+Fetch:
+PC : 0x00000060
+IR : 0x00400813
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000004
+PC : 0x00000064 (for next instruction)
+Memory Access:
+MAR : 0x00000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 159 :-
+Fetch:
+PC : 0x00000064
+IR : 0x030207b3
+Decode:
+RA : 0x00000000
+RB : 0x00000004
+Execute:
+RZ : 0x00000000
+PC : 0x00000068 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000004 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 160 :-
+Fetch:
+PC : 0x00000068
+IR : 0x00a78333
+Decode:
+RA : 0x00000000
+RB : 0x10000000
+Execute:
+RZ : 0x10000000
+PC : 0x0000006c (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x10000000 (before memory access)
+MDR : 0x10000000 (after memory access)
+Write Back:
+RY : 0x10000000
+
+Clock cycle 161 :-
+Fetch:
+PC : 0x0000006c
+IR : 0x00430393
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000070 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x10000004
+
+Clock cycle 162 :-
+Fetch:
+PC : 0x00000070
+IR : 0x00032403
+Decode:
+RA : 0x10000000
+RB : 0x00000000
+Execute:
+RZ : 0x10000000
+PC : 0x00000074 (for next instruction)
+Memory Access:
+MAR : 0x10000000
+MDR : 0x00000000 (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 163 :-
+Fetch:
+PC : 0x00000074
+IR : 0x0003a483
+Decode:
+RA : 0x10000004
+RB : 0x00000000
+Execute:
+RZ : 0x10000004
+PC : 0x00000078 (for next instruction)
+Memory Access:
+MAR : 0x10000004
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x00000005
+
+Clock cycle 164 :-
+Fetch:
+PC : 0x00000078
+IR : 0x0084da63
+Decode:
+RA : 0x00000005
+RB : 0xffffffec
+Execute:
+RZ : 0x00000000
+PC : 0x0000008c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0xffffffec
+
+Clock cycle 165 :-
+Fetch:
+PC : 0x0000008c
+IR : 0x00120213
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000001
+PC : 0x00000090 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 166 :-
+Fetch:
+PC : 0x00000090
+IR : 0xfc0006e3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x0000005c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 167 :-
+Fetch:
+PC : 0x0000005c
+IR : 0x02525c63
+Decode:
+RA : 0x00000001
+RB : 0x00000001
+Execute:
+RZ : 0x00000000
+PC : 0x00000094 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 168 :-
+Fetch:
+PC : 0x00000094
+IR : 0xfff58593
+Decode:
+RA : 0x00000002
+RB : 0x00000000
+Execute:
+RZ : 0x00000001
+PC : 0x00000098 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 169 :-
+Fetch:
+PC : 0x00000098
+IR : 0xfa1ff0ef
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000000
+PC : 0x00000038 (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x0000009c
+
+Clock cycle 170 :-
+Fetch:
+PC : 0x00000038
+IR : 0xff810113
+Decode:
+RA : 0x7fffffd0
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffc8
+PC : 0x0000003c (for next instruction)
+Memory Access:
+MAR : 0x7fffffc8
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x7fffffc8
+
+Clock cycle 171 :-
+Fetch:
+PC : 0x0000003c
+IR : 0x00b12223
+Decode:
+RA : 0x7fffffc8
+RB : 0x00000001
+Execute:
+RZ : 0x7fffffcc
+PC : 0x00000040 (for next instruction)
+Memory Access:
+MAR : 0x7fffffcc
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x7fffffcc
+
+Clock cycle 172 :-
+Fetch:
+PC : 0x00000040
+IR : 0x00112023
+Decode:
+RA : 0x7fffffc8
+RB : 0x0000009c
+Execute:
+RZ : 0x7fffffc8
+PC : 0x00000044 (for next instruction)
+Memory Access:
+MAR : 0x7fffffc8
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x7fffffc8
+
+Clock cycle 173 :-
+Fetch:
+PC : 0x00000044
+IR : 0x00100213
+Decode:
+RA : 0x00000000
+RB : 0x0000009c
+Execute:
+RZ : 0x00000001
+PC : 0x00000048 (for next instruction)
+Memory Access:
+MAR : 0x00000001
+MDR : 0x0000009c (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 174 :-
+Fetch:
+PC : 0x00000048
+IR : 0x00459663
+Decode:
+RA : 0x00000001
+RB : 0x00000001
+Execute:
+RZ : 0x00000000
+PC : 0x0000004c (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000001 (after memory access)
+Write Back:
+RY : 0x00000001
+
+Clock cycle 175 :-
+Fetch:
+PC : 0x0000004c
+IR : 0x00810113
+Decode:
+RA : 0x7fffffc8
+RB : 0xffffffec
+Execute:
+RZ : 0x7fffffd0
+PC : 0x00000050 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd0
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0x7fffffd0
+
+Clock cycle 176 :-
+Fetch:
+PC : 0x00000050
+IR : 0x00008067
+Decode:
+RA : 0x0000009c
+RB : 0x00000000
+Execute:
+RZ : 0x0000009c
+PC : 0x0000009c (for next instruction)
+Memory Access:
+MAR : 0x0000009c
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000054
+
+Clock cycle 177 :-
+Fetch:
+PC : 0x0000009c
+IR : 0x00012083
+Decode:
+RA : 0x7fffffd0
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffd0
+PC : 0x000000a0 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd0
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x0000009c
+
+Clock cycle 178 :-
+Fetch:
+PC : 0x000000a0
+IR : 0x00412583
+Decode:
+RA : 0x7fffffd0
+RB : 0x00000001
+Execute:
+RZ : 0x7fffffd4
+PC : 0x000000a4 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd4
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000002 (after memory access)
+Write Back:
+RY : 0x00000002
+
+Clock cycle 179 :-
+Fetch:
+PC : 0x000000a4
+IR : 0x00810113
+Decode:
+RA : 0x7fffffd0
+RB : 0xffffffec
+Execute:
+RZ : 0x7fffffd8
+PC : 0x000000a8 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd8
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0x7fffffd8
+
+Clock cycle 180 :-
+Fetch:
+PC : 0x000000a8
+IR : 0x00008067
+Decode:
+RA : 0x0000009c
+RB : 0x00000000
+Execute:
+RZ : 0x0000009c
+PC : 0x0000009c (for next instruction)
+Memory Access:
+MAR : 0x0000009c
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x000000ac
+
+Clock cycle 181 :-
+Fetch:
+PC : 0x0000009c
+IR : 0x00012083
+Decode:
+RA : 0x7fffffd8
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffd8
+PC : 0x000000a0 (for next instruction)
+Memory Access:
+MAR : 0x7fffffd8
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x0000009c
+
+Clock cycle 182 :-
+Fetch:
+PC : 0x000000a0
+IR : 0x00412583
+Decode:
+RA : 0x7fffffd8
+RB : 0x00000001
+Execute:
+RZ : 0x7fffffdc
+PC : 0x000000a4 (for next instruction)
+Memory Access:
+MAR : 0x7fffffdc
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000003 (after memory access)
+Write Back:
+RY : 0x00000003
+
+Clock cycle 183 :-
+Fetch:
+PC : 0x000000a4
+IR : 0x00810113
+Decode:
+RA : 0x7fffffd8
+RB : 0xffffffec
+Execute:
+RZ : 0x7fffffe0
+PC : 0x000000a8 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe0
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0x7fffffe0
+
+Clock cycle 184 :-
+Fetch:
+PC : 0x000000a8
+IR : 0x00008067
+Decode:
+RA : 0x0000009c
+RB : 0x00000000
+Execute:
+RZ : 0x0000009c
+PC : 0x0000009c (for next instruction)
+Memory Access:
+MAR : 0x0000009c
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x000000ac
+
+Clock cycle 185 :-
+Fetch:
+PC : 0x0000009c
+IR : 0x00012083
+Decode:
+RA : 0x7fffffe0
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffe0
+PC : 0x000000a0 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe0
+MDR : 0x00000000 (before memory access)
+MDR : 0x0000009c (after memory access)
+Write Back:
+RY : 0x0000009c
+
+Clock cycle 186 :-
+Fetch:
+PC : 0x000000a0
+IR : 0x00412583
+Decode:
+RA : 0x7fffffe0
+RB : 0x00000001
+Execute:
+RZ : 0x7fffffe4
+PC : 0x000000a4 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe4
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000004 (after memory access)
+Write Back:
+RY : 0x00000004
+
+Clock cycle 187 :-
+Fetch:
+PC : 0x000000a4
+IR : 0x00810113
+Decode:
+RA : 0x7fffffe0
+RB : 0xffffffec
+Execute:
+RZ : 0x7fffffe8
+PC : 0x000000a8 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe8
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0x7fffffe8
+
+Clock cycle 188 :-
+Fetch:
+PC : 0x000000a8
+IR : 0x00008067
+Decode:
+RA : 0x0000009c
+RB : 0x00000000
+Execute:
+RZ : 0x0000009c
+PC : 0x0000009c (for next instruction)
+Memory Access:
+MAR : 0x0000009c
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x000000ac
+
+Clock cycle 189 :-
+Fetch:
+PC : 0x0000009c
+IR : 0x00012083
+Decode:
+RA : 0x7fffffe8
+RB : 0x00000000
+Execute:
+RZ : 0x7fffffe8
+PC : 0x000000a0 (for next instruction)
+Memory Access:
+MAR : 0x7fffffe8
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000034 (after memory access)
+Write Back:
+RY : 0x00000034
+
+Clock cycle 190 :-
+Fetch:
+PC : 0x000000a0
+IR : 0x00412583
+Decode:
+RA : 0x7fffffe8
+RB : 0x00000001
+Execute:
+RZ : 0x7fffffec
+PC : 0x000000a4 (for next instruction)
+Memory Access:
+MAR : 0x7fffffec
+MDR : 0x00000001 (before memory access)
+MDR : 0x00000005 (after memory access)
+Write Back:
+RY : 0x00000005
+
+Clock cycle 191 :-
+Fetch:
+PC : 0x000000a4
+IR : 0x00810113
+Decode:
+RA : 0x7fffffe8
+RB : 0xffffffec
+Execute:
+RZ : 0x7ffffff0
+PC : 0x000000a8 (for next instruction)
+Memory Access:
+MAR : 0x7ffffff0
+MDR : 0xffffffec (before memory access)
+MDR : 0xffffffec (after memory access)
+Write Back:
+RY : 0x7ffffff0
+
+Clock cycle 192 :-
+Fetch:
+PC : 0x000000a8
+IR : 0x00008067
+Decode:
+RA : 0x00000034
+RB : 0x00000000
+Execute:
+RZ : 0x00000034
+PC : 0x00000034 (for next instruction)
+Memory Access:
+MAR : 0x00000034
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x000000ac
+
+Clock cycle 193 :-
+Fetch:
+PC : 0x00000034
+IR : 0x06000c63
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+PC : 0x000000ac (for next instruction)
+Memory Access:
+MAR : 0x00000000
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000000
+
+Clock cycle 194 :-
+End of instruction

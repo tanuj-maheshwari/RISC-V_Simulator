@@ -1,0 +1,83 @@
+
+Clock cycle 1 :-
+Fetch:
+PC : 0x00000000
+IR : 0x00a00513
+
+Clock cycle 2 :-
+Fetch:
+PC : 0x00000004
+IR : 0x00a50a33
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+
+Clock cycle 3 :-
+Fetch:
+PC : 0x00000008
+IR : 0x014a0fb3
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x0000000a
+RM : 0x00000000
+
+Clock cycle 4 :-
+Fetch:
+PC : 0x0000000c
+IR : 0xffffffff
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000014
+RM : 0x00000000
+Memory Access:
+MAR : 0x0000000a
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+
+Clock cycle 5 :-
+Fetch:
+PC : 0x00000010
+IR : 0x00000000
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000028
+RM : 0x0000000a
+Memory Access:
+MAR : 0x00000014
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x0000000a
+Rd : 10
+
+Clock cycle 6 :-
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+RM : 0x00000014
+Memory Access:
+MAR : 0x00000028
+MDR : 0x00000000 (before memory access)
+MDR : 0x00000000 (after memory access)
+Write Back:
+RY : 0x00000014
+Rd : 20
+
+Clock cycle 7 :-
+Decode:
+RA : 0x00000000
+RB : 0x00000000
+Execute:
+RZ : 0x00000000
+RM : 0x00000028
+Write Back:
+RY : 0x00000028
+Rd : 31
